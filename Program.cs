@@ -6,9 +6,12 @@ namespace C_
 {
    public class Program
    {
-      public static void Main(string[] args)
+      test test = new test();
+
+      public static void Main(string[] args, test test)
       {
          Console.WriteLine("Hello World!");
+         test.TesteMetodo();
       }
    }
 }
